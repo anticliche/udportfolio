@@ -28,52 +28,24 @@
     
     Cameron Pittman: Portfolio
 
-<pre><code>&lt;link href="css/print.css" rel="stylesheet" media="print"&gt;
-&lt;style type="text/css"&gt;
- html {
-   font-size: 100%;
-   overflow-y: scroll;
-   -webkit-tap-highlight-color: rgba(0,0,0,0);
-   -ms-text-size-adjust: 100%;
-   -webkit-text-size-adjust: none;
- }
- body { margin: 0; font-size: 14px; line-height: 1.61; font-weight: 400; }
- body, button, input, select, textarea { font-family: 'Open Sans', sans-serif; color: #333; }
- a:visited { color: #61C; }
- a:focus { outline: thin dotted; }
- a:hover, a:active { color: #c00; outline: 0; }
- b, strong { font-weight: bold; }
- pre, code { font-family: monospace, monospace; font-size: 1em; }
- ul, ol { margin: 1em 0; padding: 0 0 0 20px; }
- img { border: 0; max-width: 100%; }
- body { background: #fff; }
- header, footer, .container { max-width: 45em; margin: 0 auto; }
- header { padding: 0 0.5em; color: #C90B0B; }
- header img { border-radius: 40px; float: left; }
- header p { font-size:1.5em; font-weight: bold; padding-left: 4em;}
- header p span { font-size: 0.8em; font-weight: normal;}
-.hero { padding: 2em; background-color: #f8f8f8; font-size:1.2em;
- border-bottom: 1px solid #ccc;
- border-top: 1px solid #ccc;
-}
-.content { padding: 1em 1em; }
-.content li { list-style-type: none; font-size: 1.1em;}
-li img { float:left; padding-right: 1em; }
-li p { font-size: 0.9em; font-style: italic; }
-footer {
-  padding: 0 0.5em;
-  border-top: 1px solid #ccc;
-}
-footer span { float: right; font-style: italic; }
-/* Smartphones (portrait) */
+<pre><code>&lt;!-- Hmm, what is the impact of web fonts on speed? Measure it... --&gt;
+&lt;link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"&gt;
+
+&lt;link href="css/style.css" rel="stylesheet"&gt;
+&lt;link href="css/print.css" rel="stylesheet"&gt;
+
+&lt;script&gt;
+  (function(w,g){w['GoogleAnalyticsObject']=g;
+  w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
+  // TODO: replace with your Google Analytics profile ID.
+  ga('create', 'UA-XXXX-Y');
+  ga('send', 'pageview');
+&lt;/script&gt;
+&lt;script src="http://www.google-analytics.com/analytics.js"&gt;&lt;/script&gt;
+&lt;script async src="js/perfmatters.js"&gt;&lt;/script&gt;
 </code></pre>
 
-<p><a href="https://github.com/media" class="user-mention">@media</a> only screen and (max-width: 480px) {
-        body { font-size: 12px;}
-        header p { padding-left: 4.5em;}
-   }
-  
-</p>
+<p></p>
 
 <p></p>
      
@@ -117,15 +89,6 @@ footer span { float: right; font-style: italic; }
 &lt;footer&gt;
   &lt;p&gt;&amp;copy; Web Performance 2014 &lt;span id="crp-stats"&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;/footer&gt;
- &lt;script&gt;
-  (function(w,g){w['GoogleAnalyticsObject']=g;
-  w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
-  // Optional TODO: replace with your Google Analytics profile ID.
-  ga('create', 'UA-XXXX-Y');
-  ga('send', 'pageview');
-&lt;/script&gt;
-&lt;script async src="http://www.google-analytics.com/analytics.js"&gt;&lt;/script&gt;
-&lt;script async src="js/perfmatters.js"&gt;&lt;/script&gt;
 </code></pre>
 
 <p>
